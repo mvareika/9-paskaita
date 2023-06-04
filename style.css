@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&family=Lobster&family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Blinker;
+
+}
+body{
+    background:rgba(60,179,113,255);
+}
+img{
+    width:100%;
+    height:600px;
+    object-fit: cover;
+    
+}
+
+.box{
+    width:100%;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+}
+.box-right{
+    width:350px;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.section-left {
+    float: left;
+    justify-content: center;
+    width: 41%;
+    margin-right: 10px;
+    margin-left: 350px;
+    margin-top: 20px;
+ }
+ 
+ .section-right {
+    float: right;
+    width: 18%;
+    margin-right: 250px;
+    margin-top: 20px;
+    
+ }
+p{
+    display: inline-block;
+    text-align: justify;
+    font-weight: 500;
+}
+.text-box{
+    float: left;
+    margin: 20px;
+    margin-left:0;
+    font-size: 13px;
+}
+.text-box-right{
+    float: right;
+    margin: 20px;
+    font-size: 13px;
+}
+.box-text{
+    margin: 10px;
+    padding: 15px;
+    
+}
+h1{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+span{
+    display: flex;
+    float: right;
+    font-size: 13px;
+}
+.Joe{
+    font-size: 15px;
+}
+.right-column{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    
+}
+html{
+    width: 100%;
+}
+.small-image{
+    height: 280px;
+}
+@media only screen and (max-width: 320px){
+    .box-text{
+        height:100px;
+        width: 300px;
+    }
+    .box-right{
+        height: auto;
+        width: 100%;
+    }
+    .section-left{
+        margin-left: 0;
+        margin: 0;
+        height: 100px;
+    }
+    html{
+        width: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-right{
+        margin: 0;
+    }
+    .right-column{
+        width: 100%;
+    }
+    .big-photo{
+        width: 100%;
+    }
+}
